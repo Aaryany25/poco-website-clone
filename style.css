@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+/***************************NAVBAR*****************************/
+
+.navbar{
+    display: flex;
+    height: 70px;
+}
+.navbar img{
+    height: 55px;
+    margin-left: 100px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    font-size: 20px;
+    list-style: none;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+.navbar a {
+    text-decoration: none ;
+    color:white;
+    
+}
+.navbar li :hover{
+    color: yellow;
+    transition-duration: 0.4ms;
+}
+.rightdiv{
+    margin-right: 100px;
+}
+/*********************HERO************************/
+.hero{
+    background-color: black;
+    display: flex;
+   margin-top: 0px;
+    justify-content: space-around;
+}
+.card-box{
+    max-width: fit-content;
+    margin: 100px 0;
+}
+/********************HERO ENDS***************/
+.text
+{ font-size: 1.5rem;
+    background-color: black;
+    align-self: center;
+    text-align: center;
+   color: white;
+}
+/*************************FOOTER***************/
+.footer-customer-relationship{
+    background-color: rgb(43, 43, 43);
+}
+.customer-relationship{
+    display: flex;
+    margin-top: 25px;
+    
+}
+.introduction{
+   
+    margin-right: 50px;
+}
+.introduction h3{
+    color: white;
+}
+.introduction p{
+    color: gray;
+}
+.Row{
+    display: flex;
+    justify-content: space-around;
+}
+.customer-reaction{
+    margin-top: 25px;
+}
+
+
+.social-media i{
+    padding: 10px;
+}
+/*********************ACTUAL FOOTER***********/
+.footer{
+  background-color: black;  
+}
+.col-2{
+    color:white;
+}
+.nav-link a {
+    color:white;
+}
